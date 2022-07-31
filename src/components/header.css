@@ -1,0 +1,45 @@
+h1{
+    color: azure;
+}
+.navcollap{
+    margin: 0px 5px 0px;
+    padding: 0px 5px;
+}
+
+.logoMarinePark{
+    width: 220px;
+    margin-left: 50px;
+}
+.contenedor-header{
+    font-size: large;
+    margin: 20px 80px 10px 80px;
+}
+.nav-link{
+    color: azure !important;
+    margin: 0 0 0 50px;
+    font-size: 1.2rem !important;
+}
+.nav-link:hover{
+    transition: transform .2s;
+    transform: scale(1.06);
+
+}
+/* .navbar-collapse:hover{
+    color: blueviolet !important;
+} */
+
+@media screen and (max-width: 690px){
+    .navcollap{
+        margin: 0px 5px 10px 20px;
+        padding: 0px 10px 50px 5px;
+    }
+    .logoMarinePark{
+        width: 190px;
+        margin: 5px 10px;
+    }
+    .contenedor-header{
+        margin: 0 0 0 0;
+    
+    }
+    
+}
