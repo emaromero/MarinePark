@@ -1,0 +1,32 @@
+#iconMeta {
+  width: 50px;
+  height: 50px;
+  border-radius: 60%;
+  background-color: #3b5998;
+}
+#iconIg {
+  width: 50px;
+  height: 50px;
+  border-radius: 60%;
+  background: #dd4b39;
+}
+#iconWhats {
+  width: 50px;
+  height: 50px;
+  border-radius: 60%;
+  background: #25d366;
+}
+.a {
+  display: contents;
+  padding: 0.5rem 0.5rem;
+  color: azure;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.a:hover {
+    transition: transform .2s;
+    transform: scale(1.06);
+}
+h6,li{
+    color: azure;
+}
