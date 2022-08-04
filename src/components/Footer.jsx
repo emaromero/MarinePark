@@ -28,7 +28,7 @@ export default function Footer() {
                         <div className="col-md-3 mb-md-0 mb-3">
                             <h6 className="text-uppercase font-weight-bold">Contactanos</h6>
                             <ul className="list-unstyled">
-                                <li className="mt-2"><i className="fas fa-home mr-3"></i>  Chubut 2119, Rincón de Milberg</li>
+                            <a className='ubi' href="https://www.google.com/maps/dir//Marine+Park+Chubut+2119+B1624+Rinc%C3%B3n+de+Milberg+Provincia+de+Buenos+Aires/@-34.4035478,-58.6014938,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x95bca42b21e79a35:0x90a4caaddb8122fb!2m2!1d-58.6014938!2d-34.4035478" target="blank"><li className="mt-2"> <i className="fas fa-home mr-3"></i>  Chubut 2119, Rincón de Milberg</li> </a>
                                 <li className="mt-2"><i className="fas fa-envelope mr-3"></i>  administracion@mpark.com.ar</li>
                                 <li className="mt-2"><i className="fas fa-phone mr-3"></i> 5245-4043</li>
                                 <li className="mt-2"><i className="fas fa-phone mr-3"></i> 5245-4098</li>

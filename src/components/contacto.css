@@ -1,0 +1,14 @@
+.mapita{
+    width: 40em;
+    height: 40em;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 690px){
+
+    .mapita{
+        height: 350px;
+        width: auto;
+    }
+    
+}

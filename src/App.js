@@ -16,6 +16,7 @@ function App() {
             <Routes>
             <Route path="/" element={<Carrousel/>} />
             <Route path="/contacto" element={<Contacto/>} />
+            <Route path='/ubicacion' element={<Contacto/>} />
             </Routes>
             <Contacto/>
             <Seguridad/>
