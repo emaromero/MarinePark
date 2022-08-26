@@ -1,7 +1,30 @@
 *{
   margin: 0;
   padding: 0; 
+  
 }
+
+html {
+  font-size: 18px;
+}
+
+body::-webkit-scrollbar {
+	width: 10px;
+	background: #fbfdff;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: #122F66;
+	border-radius: 10px;
+  border: #ffffff 1px solid;
+
+}
+
+.mapita{
+  width: 25em;
+  height: 25em;
+}
+
 
 .btn-wsp {
   position: fixed;
@@ -39,4 +62,72 @@
   text-decoration: none;
   background: #fff;
   color: #25d366;
+}
+
+.seguridad-icon{
+  text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+  }
+
+  #about, #about2{
+    padding: 150px 0px;
+  }
+  
+  #about .service-item {
+    text-align: center;
+  }
+  
+  #about .service-item .icon {
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  #about .service-item h4 {
+    margin-bottom: 30px;
+    margin-top: 45px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  
+.line-dec {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(250, 250, 250, 0.5);
+  }
+  
+  #about p {
+    color: #fff;
+    margin-top: 30px;
+  }
+  
+
+@media (max-width: 1280px) {
+	#about .about-des {
+		padding: 40px;
+	}
+	#about .about-des h3 {
+		font-size: 20px;
+	}
+	
+	#about .about-des h4 {
+		font-size: 16px;
+	}
+	
+	#about .about-des p {
+		font-size: 13px;
+		line-height: 24px;
+	}
+}
+section {
+  font-size: 1em;
+  color: aliceblue;
+  text-align: center;
 }

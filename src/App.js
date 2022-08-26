@@ -1,10 +1,11 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import { Carrousel } from './components/Carrousel';
-import { Contacto } from './components/Contacto';
 import Footer from './components/Footer';
 import { Header } from './components/Header';
+import { Nosotros } from './components/Nosotros';
 import { Seguridad } from './components/Seguridad';
+import { Servicios } from './components/Servicios';
 
 function App() {
   return (
@@ -12,14 +13,10 @@ function App() {
       <div className="App">
       <BrowserRouter>
             <Header />
-            
-            <Routes>
-            <Route path="/" element={<Carrousel/>} />
-            <Route path="/contacto" element={<Contacto/>} />
-            <Route path='/ubicacion' element={<Contacto/>} />
-            </Routes>
-            <Contacto/>
+            <Carrousel/>
+            <Nosotros/>
             <Seguridad/>
+            <Servicios/>
             <Footer />
         </BrowserRouter>
       </div>

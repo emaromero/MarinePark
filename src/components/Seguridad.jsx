@@ -2,38 +2,69 @@ import React from 'react'
 import cam from "../images/cam.png"
 import bolt from "../images/bolt.png"
 import segurity from "../images/segurity.png"
+import "../index.css"
 
 export const Seguridad = () => {
     return (
         <>
-            <section className="features-icons text-center text-white">
+            <section id="about" className="page-section">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-4">
-                            <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                                <div className="features-icons-icon">
-                                    <img alt='seguriry' src={cam} className="w-50 justify-content-center" />
+                        <div className="col-md-4 col-sm-6 col-xs-12">
+                            <div className="service-item">
+                                <div className="icon">
+                                    <img alt='seguriry' src={cam} className="w-100" />
                                 </div>
-                                <h3>Seguridad</h3>
-                                <p className="lead mb-0">Estacionamiento con vigilancia las 24HS</p>
+                                <h5 className='text-white'>SEGURIDAD</h5>
+                                <div className="line-dec"></div>
+                                <p>Circuito cerrado de cámaras</p>
+                                <div className="primary-blue-button">
+                                </div>
                             </div>
                         </div>
-                        <div className="col-lg-4">
-                            <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                                <div className="features-icons-icon">
-                                    <img alt='bolt' src={bolt} className="w-50 justify-content-center" />
+                        <div className="col-md-4 col-sm-6 col-xs-12">
+                            <div className="service-item">
+                                <div className="icon">
+                                    <img alt='seguriry' src={bolt} className="w-100" />
                                 </div>
-                                <h3>Respaldo Electrico</h3>
-                                <p className="lead mb-0">Grupo electrógeno de 164kva</p>
+                                <h5 className='text-white'>RESPALDO ELECTRICO</h5>
+                                <div className="line-dec"></div>
+                                <p>Grupo electrógeno de 164kva</p>
+                                <div className="primary-blue-button">
+                                </div>
                             </div>
                         </div>
-                        <div className="col-lg-4">
-                            <div className="features-icons-item mx-auto mb-0 mb-lg-3">
-                                <div className="features-icons-icon">
-                                    <img alt='segurity' src={segurity} className="w-50 justify-content-center" />
+                        <div className="col-md-4 col-sm-6 col-xs-12">
+                            <div className="service-item">
+                                <div className="icon">
+                                    <img alt='seguriry' src={segurity} className="w-100" />
                                 </div>
-                                <h3>Personal</h3>
-                                <p className="lead mb-0">Personal de seguridad profesional</p>
+                                <h5 className='text-white'>PERSONAL</h5>
+                                <div className="line-dec"></div>
+                                <p> Circuito cerrado de cámaras</p>
+                                <div className="primary-blue-button">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div className="container text-center text-white">
+                    <div className="row">
+                        <div className="col-md-6 col-sm-6 col-xs-12">
+                            <div className="horarios">
+                                <h2 className='text-uppercase'>horarios de atención</h2>
+                                <p className="lead mb-0">Miercoles a Lunes de 8:00 a 19:00
+                            <br /> Fin de semana de 8:00 a 20:00</p>
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-sm-6 col-xs-12">
+                            <div className="service-item">
+                                <div>
+                                <iframe className='mapita' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1645.9566804926908!2d-58.601493999999995!3d-34.403548!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x90a4caaddb8122fb!2sMarine%20Park!5e0!3m2!1ses-419!2sar!4v1659626204044!5m2!1ses-419!2sar"
+                                            title='maps' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
                             </div>
                         </div>
                     </div>
